@@ -1,0 +1,79 @@
+body {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1,2em;
+  background-image: url("image/belgianflag 2.jpg");
+  background-repeat: repeat;
+  margin: 0 auto;
+  margin-left: 5px;
+}
+
+p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+h1 {
+  color: red;
+  font-family: 'Varela', sans-serif;
+  font-size: 45px;
+}
+
+h2 {
+  color: #EEBC39;
+  background-color: black;
+  font-family: 'Varela', sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+a {
+  color: grey;
+  text-decoration: none
+}
+
+a:hover {
+  color: red;
+}
+
+.img_circle {
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.centered_box {
+  background: white;
+  text-align:center;
+  margin-bottom: 20px;                         /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);   /* Subtle shadow */
+}
+
+.btn_red {
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
